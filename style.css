@@ -1,0 +1,97 @@
+/* ==========================================================================
+   Base styles
+   ========================================================================== */
+html {
+  color: #000;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust:none; 
+  -ms-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+body {
+  margin: 0;
+  background: #f2f2f2;
+  overflow-x: hidden;
+  position: relative;
+  font: 18px/1 "Microsoft YaHei",helvetica, arial, sans-serif;
+}
+
+img {
+  border: 0;
+}
+
+p,img{
+  margin: 0;
+  padding: 0;
+}
+
+ul,li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pinterestUl{
+  overflow: hidden;
+  position: relative;
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-bottom: 10px;
+}
+
+.pinterestLi{
+  display: none;
+  width: 48%;
+  width: -webkit-calc(50% - 20px);
+  width: calc(50% - 20px);
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  list-style: none;
+  float: left;
+  overflow: hidden;
+  border: 1px solid #fff;
+  box-shadow: 0 2px 1px rgba(100, 100, 100, 0.3);
+  position: absolute;
+  z-index: 1;
+  -webkit-transition: top 0.2s ease-out, left 0.2s ease-out, box-shadow 0.2s ease-out, border 0.2s ease-out;
+  transition: top 0.2s ease-out, left 0.2s ease-out, box-shadow 0.2s ease-out, border 0.2s ease-out;
+  font-size: 0;
+}
+
+.pinterestLi img{
+  width: 100%;
+  display: block;
+}
+
+.col1 li{
+  width: 96.8%;
+  width: -webkit-calc(100% - 20px);
+  width: calc(100% - 20px);
+  padding: 0;
+}
+
+.col2 li{
+  width: 48%;
+  width: -webkit-calc(50% - 20px);
+  width: calc(50% - 20px);
+  padding: 0;
+}
+
+.col3 li{
+  width: 31%;
+  width: -webkit-calc(33% - 20px);
+  width: calc(33% - 20px);
+  padding: 0;
+}
+
+.col4 li{
+  width: 23%;
+  width: -webkit-calc(25% - 20px);
+  width: calc(25% - 20px);
+  padding: 0;
+}
